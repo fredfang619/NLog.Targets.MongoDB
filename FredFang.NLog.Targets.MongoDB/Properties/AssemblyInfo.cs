@@ -2,7 +2,7 @@
 using System.Runtime.InteropServices;
 
 [assembly: AssemblyTitle("FredFang.NLog.Targets.MongoDB")]
-[assembly: AssemblyDescription("An NLog target for MongoDB")]
+[assembly: AssemblyDescription("An NLog target for MongoDB, supported customized MongoDB connection string provider.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("FredFang")]
 [assembly: AssemblyProduct("FredFang.NLog.Targets.MongoDB")]
@@ -11,4 +11,4 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyCulture("")]
 [assembly: ComVisible(false)]
 [assembly: Guid("4a8ab94c-8010-4057-ba58-6295efefc046")]
-[assembly: AssemblyVersion("1.0.*")]
+[assembly: AssemblyVersion("1.1.0")]
