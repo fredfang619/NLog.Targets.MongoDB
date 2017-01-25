@@ -1,5 +1,5 @@
-﻿<p>
-	# 使用说明<br />
+﻿# 使用说明
+<p>
 请搭配NLog.Config使用<br />
 在NLog.Config中添加如下节点<br />
 &nbsp; &lt;extensions&gt;<br />
