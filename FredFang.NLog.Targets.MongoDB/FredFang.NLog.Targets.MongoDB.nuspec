@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>Fred Fang</authors>
+    <owners>Fred Fang</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <copyright>Copyright 2017</copyright>
+    <tags>NLog MongoDB Mongo NLog.Mongo NLog.MongoDB FredFang Fred Fang</tags>
+  </metadata>
+</package>
