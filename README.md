@@ -3,14 +3,14 @@
 请搭配NLog.Config使用<br />
 在NLog.Config中添加如下节点<br />
 &nbsp; &lt;extensions&gt;<br />
-&nbsp; &nbsp; &lt;add assembly="FredFang.NLog.Targets.MongoDB"/&gt;<br />
+&nbsp; &nbsp; &lt;add assembly="NLog.Targets.MongoDB"/&gt;<br />
 &nbsp; &lt;/extensions&gt;<br />
 &nbsp; &lt;targets async="true"&gt;<br />
 &nbsp; &nbsp; &lt;target xsi:type="MongoDBTarget"<br />
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; name="mongoDBTarget1"<br />
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; connectionString="mongodb://localhost:27017/mongoDBTarget1"<br />
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; connectionName="mongoDBTarget3"<br />
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; connectionStringProviderType="FredFang.NLog.Targets.MongoDB.UnitTest.MongoDBConnectionStringProvider, FredFang.NLog.Targets.MongoDB.UnitTest"<br />
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; connectionStringProviderType="NLog.Targets.MongoDB.UnitTest.MongoDBConnectionStringProvider, NLog.Targets.MongoDB.UnitTest"<br />
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; collectionName="NLog${date:yyMMdd}"<br />
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; collectionMaxSize="1073741824"<br />
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; collectionMaxItems="100000000"<br />
@@ -27,7 +27,7 @@ collectionMaxSize：Collection最大容量<br />
 collectionMaxSize：Collection最大Item数<br />
 includeDefaults：是否包含默认字段（Date、Level、Logger、Message、Exception）<br />
 <br />
-更多配置请见测试源码：https://github.com/fredfang619/FredFang.NLog.Targets.MongoDB/blob/master/src/FredFang.NLog.Targets.MongoDB.UnitTest/NLog.config<br />
+更多配置请见测试源码：https://github.com/fredfang619/NLog.Targets.MongoDB/blob/master/src/NLog.Targets.MongoDB.UnitTest/NLog.config<br />
 <br />
 Ps.搭配NLog.Web使用更佳哦<br />
 	<div>
