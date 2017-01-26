@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FredFang.NLog.Targets.MongoDB.UnitTest
+namespace NLog.Targets.MongoDB.UnitTest
 {
     class MongoDBConnectionStringProvider : IMongoDBConnectionStringProvider
     {

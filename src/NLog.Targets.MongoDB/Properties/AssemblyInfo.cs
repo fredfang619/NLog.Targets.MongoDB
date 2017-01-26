@@ -1,11 +1,11 @@
 ﻿using System.Reflection;
 using System.Runtime.InteropServices;
 
-[assembly: AssemblyTitle("FredFang.NLog.Targets.MongoDB")]
+[assembly: AssemblyTitle("NLog.Targets.MongoDB")]
 [assembly: AssemblyDescription("An NLog target for MongoDB, supported customized MongoDB connection string provider.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("FredFang")]
-[assembly: AssemblyProduct("FredFang.NLog.Targets.MongoDB")]
+[assembly: AssemblyProduct("NLog.Targets.MongoDB")]
 [assembly: AssemblyCopyright("Copyright © FredFang 2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

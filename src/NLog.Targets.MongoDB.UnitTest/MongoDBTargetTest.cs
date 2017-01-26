@@ -3,7 +3,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using NLog;
 using System.Threading;
 
-namespace FredFang.NLog.Targets.MongoDB.UnitTest
+namespace NLog.Targets.MongoDB.UnitTest
 {
     [TestClass]
     public class MongoDBTargetTest

@@ -11,7 +11,7 @@ using NLog;
 using System.Reflection;
 using System.Text.RegularExpressions;
 
-namespace FredFang.NLog.Targets.MongoDB
+namespace NLog.Targets.MongoDB
 {
     /// <summary>
     /// 继承NLog.Targets.Target以实现记录日志到MongoDB
@@ -355,7 +355,7 @@ namespace FredFang.NLog.Targets.MongoDB
 
             return CollectionCache.GetOrAdd(cacheKey, p =>
             {
-                InternalLogger.Info("刷新Collection");
+                InternalLogger.Info("刷新CollectionCache");
                 var mongoUrl = new MongoUrl(ConnectionString);
                 var client = new MongoClient(mongoUrl);
 

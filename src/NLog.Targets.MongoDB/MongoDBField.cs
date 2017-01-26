@@ -2,7 +2,7 @@
 using NLog.Layouts;
 using System.ComponentModel;
 
-namespace FredFang.NLog.Targets.MongoDB
+namespace NLog.Targets.MongoDB
 {
     /// <summary>
     /// MongoDB Field

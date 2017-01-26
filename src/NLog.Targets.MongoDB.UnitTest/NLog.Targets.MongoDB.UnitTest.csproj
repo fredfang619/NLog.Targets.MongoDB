@@ -6,8 +6,8 @@
     <ProjectGuid>{80D4908C-5B04-4B43-8847-BD0C36EB805C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>FredFang.NLog.Targets.MongoDB.UnitTest</RootNamespace>
-    <AssemblyName>FredFang.NLog.Targets.MongoDB.UnitTest</AssemblyName>
+    <RootNamespace>NLog.Targets.MongoDB.UnitTest</RootNamespace>
+    <AssemblyName>NLog.Targets.MongoDB.UnitTest</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -60,9 +60,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\FredFang.NLog.Targets.MongoDB\FredFang.NLog.Targets.MongoDB.csproj">
+    <ProjectReference Include="..\NLog.Targets.MongoDB\NLog.Targets.MongoDB.csproj">
       <Project>{4a8ab94c-8010-4057-ba58-6295efefc046}</Project>
-      <Name>FredFang.NLog.Targets.MongoDB</Name>
+      <Name>NLog.Targets.MongoDB</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

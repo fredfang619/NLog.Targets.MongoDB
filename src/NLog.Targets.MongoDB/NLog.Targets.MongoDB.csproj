@@ -7,8 +7,8 @@
     <ProjectGuid>{4A8AB94C-8010-4057-BA58-6295EFEFC046}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>FredFang.NLog.Targets.MongoDB</RootNamespace>
-    <AssemblyName>FredFang.NLog.Targets.MongoDB</AssemblyName>
+    <RootNamespace>NLog.Targets.MongoDB</RootNamespace>
+    <AssemblyName>NLog.Targets.MongoDB</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
