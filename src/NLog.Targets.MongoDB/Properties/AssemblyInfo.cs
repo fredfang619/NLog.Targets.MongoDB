@@ -2,7 +2,9 @@
 using System.Runtime.InteropServices;
 
 [assembly: AssemblyTitle("NLog.Targets.MongoDB")]
-[assembly: AssemblyDescription("An NLog target for MongoDB, supported customized MongoDB connection string provider.")]
+[assembly: AssemblyDescription(@"An NLog target for MongoDB
+supported name collection as date(eg. Log${date:yyMMdd}).
+supported customized MongoDB connection string provider.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("FredFang")]
 [assembly: AssemblyProduct("NLog.Targets.MongoDB")]
