@@ -11,6 +11,6 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
     <copyright>Copyright 2017</copyright>
-    <tags>NLog MongoDB Mongo NLog.Mongo NLog.MongoDB FredFang Fred Fang</tags>
+    <tags>NLog MongoDB Mongo NLog.Mongo NLog.MongoDB</tags>
   </metadata>
 </package>
