@@ -7,7 +7,7 @@
     <authors>Fred Fang</authors>
     <owners>Fred Fang</owners>
 	<iconUrl>http://nlog-project.org/N.png</iconUrl>
-	<projectUrl>https://github.com/fredfang619/FredFang.NLog.Targets.MongoDB</projectUrl>
+	<projectUrl>https://github.com/fredfang619/NLog.Targets.MongoDB</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
     <copyright>Copyright 2017</copyright>
